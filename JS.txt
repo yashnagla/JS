@@ -35,4 +35,18 @@ Data Types in JS:-
 6. Symbol : typeof instance === "symbol"
 **Note:- For more references visit - https://developer.moxilla.org/en-US/docs/Web/JavaScript/Data_structures
 
-Difference between null and undefined:-
+null and undefined:-
+In JavaScript, null and undefined are both special values that represent the absence of a value. However, they are used in different contexts and have different meanings.
+undefined is a primitive value that is automatically assigned to a variable that has been declared but has not been assigned a value. It can also be returned by a function if no explicit return value is specified.
+null, on the other hand, is also a primitive value that represents the intentional absence of any object value. It is often used to indicate that a variable or property exists but has no value.
+Here are some key differences between null and undefined:
+1.undefined is a value that is automatically assigned to a variable that has been declared but has not been assigned a value, whereas null is a value that is explicitly assigned to a variable or property to indicate the absence of a value.
+2.undefined is a primitive value, whereas null is also a primitive value.
+3.undefined is not equal to null (undefined === null returns false), but they are considered loosely equal (undefined == null returns true).
+4.undefined is returned by a function if no explicit return value is specified, whereas null is often used as an explicit return value to indicate the absence of a value.
+5.undefined is a property of the global object (window.undefined in a browser environment), whereas null is a standalone value and does not have a property associated with it.
+
+What is NaN?
+In JavaScript, NaN stands for "Not a Number". It is a special value that represents an undefined or unrepresentable value in numerical operations.
+NaN is a property of the global object (window.NaN in a browser environment) and is a non-configurable, non-writable, and non-enumerable property.
+NaN is a result of an operation that cannot be represented as a number. For example, the result of an operation that involves a non-numeric string, an undefined value, or an infinite value is NaN.
