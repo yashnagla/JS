@@ -50,3 +50,12 @@ What is NaN?
 In JavaScript, NaN stands for "Not a Number". It is a special value that represents an undefined or unrepresentable value in numerical operations.
 NaN is a property of the global object (window.NaN in a browser environment) and is a non-configurable, non-writable, and non-enumerable property.
 NaN is a result of an operation that cannot be represented as a number. For example, the result of an operation that involves a non-numeric string, an undefined value, or an infinite value is NaN.
+
+
+Why Functions?
+We can reuse code: define the code once and use it multiple times. This makes our program shorter and easier to maintain.
+We can use the same code multiple times with different arguments to produce different results. This property makes functions very useful.
+
+or
+
+A function is a group of reusable code which can be called anywhere in our program. This eliminates the need of writing the same code again and again.
