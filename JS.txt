@@ -1,0 +1,38 @@
+Why JS?
+JS improves the user experience of the web page by converting it from a static page into an interactive one.
+OR 
+JS adds behavior to web pages.
+
+
+How website front-end works (client-side)?
+A web-site uses three entities to work properly:-
+1.HTML/HTML5:-
+HTML stands for Hyper Text Markup Language.
+It is the standard markup language for creating web pages.
+It describes the structure of a web page.
+2. CSS/CSS3:-
+CSS stands for Cascading Style Sheets.
+It describes how HTML elements are to be displayed on screen, paper or in other media.
+With CSS, we can control the color, font, size of text, etc.
+3.JS:-
+JS stands for JavaScript.
+It is a text-based programming language used both on client-side and server-side that allows you to make web pages interactive.
+It improves the user experience of the web page by converting it from a static page into an interactive one.
+
+Naming Variables:- Rules and Best Practices:-
+The first character must be a letter or an underscore (_) or an dollar($). We can't use a number as the first character.
+The rest of the variable name can include any letter, any number or underscore. Can't use any other characters, including spaces.
+Variable names are case sensitive.
+No limit to the length of the variable name.
+You can't use one of JavaScript's reserved words as a variable name.
+
+Data Types in JS:-
+1. Undefined : typeof instance === "undefined"
+2. Boolean : typeof instance === "boolean"
+3. Number : typeof instance === "number"
+4. String : typeof instance === "string"
+5. BigInt : typeof instance === "bigint"
+6. Symbol : typeof instance === "symbol"
+**Note:- For more references visit - https://developer.moxilla.org/en-US/docs/Web/JavaScript/Data_structures
+
+Difference between null and undefined:-
