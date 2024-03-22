@@ -1,4 +1,4 @@
-var myFriend = ["Yash", "ramesh", "arjun", "viahal"];
+// var myFriend = ["Yash", "ramesh", "arjun", "viahal"];
 
 // Length Property
 // console.log(myFriend.length);
@@ -42,17 +42,46 @@ var myFriend = ["Yash", "ramesh", "arjun", "viahal"];
 // console.log(myFriend.includes("Yash"));
 
 // Filtration in Array
-const price = [100, 200, 300, 400, 500]
-const result = price.filter(checkPrice);
-function checkPrice(price){
-    return price <= 400;
-}
-console.log(result);
+// const price = [100, 200, 300, 400, 500]
+// const result = price.filter(checkPrice);
+
+// function checkPrice(price){
+//     return price >= 400;
+// }
+// console.log(result);
 
 // const ages = [32, 33, 16, 40];
 // const result = ages.filter(checkAdult);
 
 // function checkAdult(age) {
-//   return age >= 18;
+//     return age >= 18;
 // }
 // console.log(result);
+
+// const array1 = [5, 12, 8, 130, 44];
+// const found = array1.find((element) => element > 10);
+// console.log(found);
+
+
+// const myFriend = ["Yash", "ramesh", "arjun", "viahal"];
+// console.log(myFriend);
+
+// myFriend.push('Anant','Gopal')
+// console.log(myFriend);
+
+const months = ['January', 'march', 'April', 'May', 'June', 'July',  'August', 'September', 'October'];
+// console.log(months);
+// months.splice(1,0,'February');
+// months.splice(months.length,0,'November');
+// months.splice(months.length,0,'December');
+
+// months.splice(2,1,'March')
+// Using If Else Statement
+const indexOfMonth = months.indexOf('march');
+if(indexOfMonth != -1){
+    const updateMonth = months.splice(indexOfMonth,1,'March');
+    console.log(months);
+}else{
+    console.log(months + " does not contain the month");
+}
+// console.log(months);
