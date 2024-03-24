@@ -70,7 +70,7 @@
 // Property Access
 
 var str = "Hello World!"
-console.log(str[0]);
+// console.log(str[0]);
 
-console.log(str.toUpperCase());
-console.log(str.toLowerCase());
+// console.log(str.toUpperCase());
+// console.log(str.toLowerCase());
